@@ -2,10 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Picky Attackers Artifacts</title>
+    <title>Picky Attackers</title>
 </head>
 <body>
+<h2>Picky Attackers: Quantifying the Role of System Properties on Intruder Behavior</h2>
 
-<a hfref="https://drive.google.com/open?id=1q5jZin2KozCnkX-PDVleEU7dqybbGX4S">Download here.</a>
+<p><b>Abstract: </b>Honeypots constitute an invaluable piece of technology that allows researchers and security practitioners to track the evolution of break-in techniques by attackers and discover new malicious IP addresses, hosts, and victims. Even though there has been a wealth of research where researchers deploy honeypots for a period of time and report on their findings, there is little work that attempts to understand how the underlying properties of a compromised system affect the actions of attackers. In this paper, we report on a four-month long study involving 102 medium-interaction honeypots where we vary a honeypot's location, difficulty of break-in, and population of files, observing how these differences elicit different behaviors from attackers. Moreover, we purposefully leak the credentials of dedicated, hard-to-brute-force, honeypots to hacking forums and paste-sites and monitor the actions of the incoming attackers. Among others, we find that, even though bots perform specific environment-agnostic actions, human attackers are affected by the underlying environment, e.g., executing more commands on honeypots with realistic files and folder structures. Based on our findings, we provide guidance for future honeypot deployments and motivate the need for having multiple intrusion-detection systems.</p>
+
+<a href="http://securitee.org/files/pickyattackers_acsac2017.pdf">View full PDF.</a>
+
+<p><b>Artifacts contents</b>
+<ul>
+    <li>cowrie_logs.tar.gz </li>
+    contains log files from all experiments
+
+<li>paper_figures_scripts</li>
+    scripts that analyzed log files and produced statistics and figures for the paper
+
+<li>honeypot_deploy</li>
+    for those interested in setting up honeypots we provide the Ansible scripts we used for deployment
+</ul></p>
+
+<a href="https://drive.google.com/uc?id=1q5jZin2KozCnkX-PDVleEU7dqybbGX4S&export=download">Download here.</a>
 </body>
 </html>
